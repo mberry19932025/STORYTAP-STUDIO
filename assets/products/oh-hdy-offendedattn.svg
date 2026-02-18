@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+
+  <radialGradient id="bg" cx="0.5" cy="0.38" r="0.9">
+    <stop offset="0" stop-color="#f5f3ff" />
+    <stop offset="0.55" stop-color="#ffffff" />
+    <stop offset="1" stop-color="#ffffff" />
+  </radialGradient>
+
+
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.22" />
+  </filter>
+
+
+  <filter id="printShadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.22" />
+  </filter>
+
+<linearGradient id="fabric" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#111827" />
+    <stop offset="1" stop-color="#0b0b0b" />
+  </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <ellipse cx="600" cy="716" rx="280" ry="64" fill="rgba(0,0,0,0.12)" />
+
+  <g filter="url(#shadow)">
+<path
+      d="M350 235 L280 285 Q262 300 272 322 L312 410 Q326 440 356 426 L430 392 L430 726 Q430 758 462 758 L738 758 Q770 758 770 726 L770 392 L844 426 Q874 440 888 410 L928 322 Q938 300 920 285 L850 235 Q806 205 748 206 Q724 306 600 306 Q476 306 452 206 Q394 205 350 235 Z"
+      fill="url(#fabric)"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="3"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M470 210 Q600 100 730 210 Q744 232 748 258 Q720 330 600 330 Q480 330 452 258 Q456 232 470 210 Z"
+      fill="rgba(0,0,0,0.16)"
+      stroke="rgba(255,255,255,0.16)"
+      stroke-width="3"
+      opacity="0.9"
+    />
+    <path
+      d="M470 244 Q600 164 730 244"
+      fill="none"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="20"
+      stroke-linecap="round"
+      opacity="0.18"
+    />
+    <rect x="470" y="592" width="260" height="112" rx="56" fill="rgba(0,0,0,0.16)" opacity="0.55" />
+    <g>
+      <text
+      x="600"
+      y="305"
+      text-anchor="middle"
+      font-family="Teko, Impact, Arial Black, sans-serif"
+      font-size="92"
+      font-weight="800"
+      fill="#ffffff"
+      letter-spacing="0.02em"
+    >
+      <tspan x="600" dy="0">IF YOU&apos;RE OFFENDED,</tspan>
+    </text>
+<g transform="translate(600 455)" filter="url(#printShadow)">
+      <rect
+      x="-125"
+      y="-125"
+      width="250"
+      height="250"
+      rx="45"
+      fill="rgba(0,0,0,0.28)"
+      stroke="#38bdf8"
+      stroke-width="5"
+      opacity="0.55"
+    />
+      <g
+      fill="none"
+      stroke="#38bdf8"
+      stroke-width="12"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-label="eye"
+    >
+      <path
+            d="M-76.5 0 Q 0 -78.2 76.5 0 Q 0 78.2 -76.5 0 Z"
+            fill="#38bdf833"
+            stroke="#38bdf8"
+            stroke-width="12"
+            stroke-linejoin="round"
+          />
+          <circle cx="0" cy="0" r="23.8" fill="#38bdf8" opacity="0.9" />
+          <circle cx="-8.5" cy="-8.5" r="8.5" fill="#ffffff" opacity="0.65" />
+    </g>
+    </g>
+<text
+      x="600"
+      y="579.5"
+      text-anchor="middle"
+      font-family="Teko, Impact, Arial Black, sans-serif"
+      font-size="74"
+      font-weight="800"
+      fill="#ffffff"
+      letter-spacing="0.02em"
+    >
+      <tspan x="600" dy="0">YOU&apos;RE PAYING</tspan><tspan x="600" dy="65">ATTENTION</tspan>
+    </text>
+    </g>
+  </g>
+</svg>

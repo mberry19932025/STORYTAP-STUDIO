@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+
+  <radialGradient id="bg" cx="0.5" cy="0.38" r="0.9">
+    <stop offset="0" stop-color="#f5f3ff" />
+    <stop offset="0.55" stop-color="#ffffff" />
+    <stop offset="1" stop-color="#ffffff" />
+  </radialGradient>
+
+
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.22" />
+  </filter>
+
+
+  <filter id="printShadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.22" />
+  </filter>
+
+<linearGradient id="fabric" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#111827" />
+    <stop offset="1" stop-color="#0b0b0b" />
+  </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <ellipse cx="600" cy="716" rx="280" ry="64" fill="rgba(0,0,0,0.12)" />
+
+  <g filter="url(#shadow)">
+<path
+      d="M360 200 L285 250 Q265 265 275 290 L310 520 Q320 560 350 548 L430 495 L430 720 Q430 750 460 750 L740 750 Q770 750 770 720 L770 495 L850 548 Q880 560 890 520 L925 290 Q935 265 915 250 L840 200 Q790 165 730 175 Q712 220 600 220 Q488 220 470 175 Q410 165 360 200 Z"
+      fill="url(#fabric)"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="3"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M420 250 Q520 340 600 340 Q680 340 780 250"
+      fill="none"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="26"
+      stroke-linecap="round"
+      opacity="0.18"
+    />
+    <path
+      d="M470 196 Q600 268 730 196"
+      fill="none"
+      stroke="rgba(255,255,255,0.18)"
+      stroke-width="16"
+      stroke-linecap="round"
+      opacity="0.9"
+    />
+    <path
+      d="M315 522 Q328 552 350 548"
+      fill="none"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="10"
+      stroke-linecap="round"
+      opacity="0.22"
+    />
+    <path
+      d="M885 522 Q872 552 850 548"
+      fill="none"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="10"
+      stroke-linecap="round"
+      opacity="0.22"
+    />
+    <g>
+      <text
+      x="600"
+      y="300"
+      text-anchor="middle"
+      font-family="Teko, Impact, Arial Black, sans-serif"
+      font-size="96"
+      font-weight="800"
+      fill="#ffffff"
+      letter-spacing="0.02em"
+    >
+      <tspan x="600" dy="0">SEPARATION OF</tspan>
+    </text>
+<g transform="translate(600 450)" filter="url(#printShadow)">
+      <rect
+      x="-119"
+      y="-119"
+      width="238"
+      height="238"
+      rx="42.839999999999996"
+      fill="rgba(0,0,0,0.28)"
+      stroke="#60a5fa"
+      stroke-width="5"
+      opacity="0.55"
+    />
+      <g
+      fill="none"
+      stroke="#60a5fa"
+      stroke-width="11"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-label="scale"
+    >
+      <path
+            d="M0 -50.22 V 42.120000000000005"
+            fill="none"
+            stroke="#60a5fa"
+            stroke-width="11"
+            stroke-linecap="round"
+          />
+          <path
+            d="M-37.260000000000005 -25.92 H 37.260000000000005"
+            fill="none"
+            stroke="#60a5fa"
+            stroke-width="11"
+            stroke-linecap="round"
+          />
+          <path
+            d="M-25.92 -25.92 L -35.64 8.1"
+            fill="none"
+            stroke="#60a5fa"
+            stroke-width="8"
+            stroke-linecap="round"
+          />
+          <path
+            d="M25.92 -25.92 L 35.64 8.1"
+            fill="none"
+            stroke="#60a5fa"
+            stroke-width="8"
+            stroke-linecap="round"
+          />
+          <path
+            d="M-45.36000000000001 9.719999999999999 Q -35.64 25.92 -25.92 9.719999999999999"
+            fill="none"
+            stroke="#60a5fa"
+            stroke-width="8"
+            stroke-linecap="round"
+          />
+          <path
+            d="M25.92 9.719999999999999 Q 35.64 25.92 45.36000000000001 9.719999999999999"
+            fill="none"
+            stroke="#60a5fa"
+            stroke-width="8"
+            stroke-linecap="round"
+          />
+          <path
+            d="M-14.58 42.120000000000005 H 14.58"
+            fill="none"
+            stroke="#60a5fa"
+            stroke-width="11"
+            stroke-linecap="round"
+          />
+    </g>
+    </g>
+<text
+      x="600"
+      y="573.5"
+      text-anchor="middle"
+      font-family="Teko, Impact, Arial Black, sans-serif"
+      font-size="74"
+      font-weight="800"
+      fill="#ffffff"
+      letter-spacing="0.02em"
+    >
+      <tspan x="600" dy="0">CHURCH</tspan><tspan x="600" dy="65">&amp; STATE</tspan>
+    </text>
+    </g>
+  </g>
+</svg>

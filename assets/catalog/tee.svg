@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="0.55" stop-color="#f3f0ff" />
+      <stop offset="1" stop-color="#e0f2ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <rect x="72" y="72" width="1056" height="656" rx="48" fill="#0b0b0b" opacity="0.06" />
+  <text x="110" y="170" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="700" fill="#0b0b0b">
+    OffendHop
+  </text>
+  <text x="110" y="210" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="600" fill="#1d1d1d" opacity="0.75">
+    You Will Be Offended
+  </text>
+  <text x="110" y="280" font-family="Teko, Impact, sans-serif" font-size="132" font-weight="700" fill="#8b5cf6">
+    TEE MOCKUP
+  </text>
+  <text x="110" y="350" font-family="Manrope, Arial, sans-serif" font-size="34" fill="#1d1d1d" opacity="0.8">
+    Replace with your real product photo
+  </text>
+  <text x="110" y="430" font-family="Manrope, Arial, sans-serif" font-size="28" fill="#1d1d1d" opacity="0.75">
+    Suggested: front shot + close-up of print
+  </text>
+</svg>

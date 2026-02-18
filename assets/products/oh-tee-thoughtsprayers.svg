@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+
+  <radialGradient id="bg" cx="0.5" cy="0.38" r="0.9">
+    <stop offset="0" stop-color="#f5f3ff" />
+    <stop offset="0.55" stop-color="#ffffff" />
+    <stop offset="1" stop-color="#ffffff" />
+  </radialGradient>
+
+
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.22" />
+  </filter>
+
+
+  <filter id="printShadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.22" />
+  </filter>
+
+<linearGradient id="fabric" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#111827" />
+    <stop offset="1" stop-color="#0b0b0b" />
+  </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <ellipse cx="600" cy="716" rx="280" ry="64" fill="rgba(0,0,0,0.12)" />
+
+  <g filter="url(#shadow)">
+<path
+      d="M360 200 L285 250 Q265 265 275 290 L320 390 Q332 416 360 402 L430 360 L430 720 Q430 750 460 750 L740 750 Q770 750 770 720 L770 360 L840 402 Q868 416 880 390 L925 290 Q935 265 915 250 L840 200 Q790 165 730 175 Q712 220 600 220 Q488 220 470 175 Q410 165 360 200 Z"
+      fill="url(#fabric)"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="3"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M420 250 Q520 340 600 340 Q680 340 780 250"
+      fill="none"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="26"
+      stroke-linecap="round"
+      opacity="0.18"
+    />
+    <path
+      d="M470 196 Q600 268 730 196"
+      fill="none"
+      stroke="rgba(255,255,255,0.18)"
+      stroke-width="16"
+      stroke-linecap="round"
+      opacity="0.9"
+    />
+    <g>
+      <text
+      x="600"
+      y="267.5"
+      text-anchor="middle"
+      font-family="Teko, Impact, Arial Black, sans-serif"
+      font-size="74"
+      font-weight="800"
+      fill="#ffffff"
+      letter-spacing="0.02em"
+    >
+      <tspan x="600" dy="0">THOUGHTS</tspan><tspan x="600" dy="65">&amp; PRAYERS</tspan>
+    </text>
+<g transform="translate(600 450)" filter="url(#printShadow)">
+      <rect
+      x="-119"
+      y="-119"
+      width="238"
+      height="238"
+      rx="42.839999999999996"
+      fill="rgba(0,0,0,0.28)"
+      stroke="#f59e0b"
+      stroke-width="5"
+      opacity="0.55"
+    />
+      <g
+      fill="none"
+      stroke="#f59e0b"
+      stroke-width="11"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-label="hourglass"
+    >
+      <path
+            d="M-45.36000000000001 -61.56 H 45.36000000000001 Q 0 -19.439999999999998 -45.36000000000001 0 Q 0 19.439999999999998 45.36000000000001 61.56 H -45.36000000000001 Q 0 19.439999999999998 45.36000000000001 0 Q 0 -19.439999999999998 -45.36000000000001 -61.56 Z"
+            fill="none"
+            stroke="#f59e0b"
+            stroke-width="11"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M-19.958400000000005 -42.120000000000005 L 19.958400000000005 -42.120000000000005 L 0 -6.48 Z"
+            fill="#f59e0b33"
+          />
+          <path
+            d="M-16.329600000000003 42.120000000000005 L 16.329600000000003 42.120000000000005 L 0 19.439999999999998 Z"
+            fill="#f59e0b33"
+          />
+    </g>
+    </g>
+<text
+      x="600"
+      y="573.5"
+      text-anchor="middle"
+      font-family="Teko, Impact, Arial Black, sans-serif"
+      font-size="74"
+      font-weight="800"
+      fill="#ffffff"
+      letter-spacing="0.02em"
+    >
+      <tspan x="600" dy="0">PENDING</tspan><tspan x="600" dy="65">APPROVAL</tspan>
+    </text>
+    </g>
+  </g>
+</svg>

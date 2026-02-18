@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+
+  <radialGradient id="bg" cx="0.5" cy="0.38" r="0.9">
+    <stop offset="0" stop-color="#f5f3ff" />
+    <stop offset="0.55" stop-color="#ffffff" />
+    <stop offset="1" stop-color="#ffffff" />
+  </radialGradient>
+
+
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.22" />
+  </filter>
+
+
+  <filter id="printShadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.22" />
+  </filter>
+
+<linearGradient id="fabric" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#111827" />
+    <stop offset="1" stop-color="#0b0b0b" />
+  </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <ellipse cx="600" cy="716" rx="280" ry="64" fill="rgba(0,0,0,0.12)" />
+
+  <g filter="url(#shadow)">
+<path
+      d="M350 235 L280 285 Q262 300 272 322 L312 410 Q326 440 356 426 L430 392 L430 726 Q430 758 462 758 L738 758 Q770 758 770 726 L770 392 L844 426 Q874 440 888 410 L928 322 Q938 300 920 285 L850 235 Q806 205 748 206 Q724 300 600 300 Q476 300 452 206 Q394 205 350 235 Z"
+      fill="url(#fabric)"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="3"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M420 258 Q520 344 600 344 Q680 344 780 258"
+      fill="none"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="26"
+      stroke-linecap="round"
+      opacity="0.16"
+    />
+    <path
+      d="M482 236 Q600 296 718 236"
+      fill="none"
+      stroke="rgba(255,255,255,0.18)"
+      stroke-width="20"
+      stroke-linecap="round"
+      opacity="0.92"
+    />
+    <rect x="456" y="728" width="288" height="28" rx="14" fill="rgba(0,0,0,0.16)" opacity="0.46" />
+    <g>
+      <text
+      x="600"
+      y="305"
+      text-anchor="middle"
+      font-family="Teko, Impact, Arial Black, sans-serif"
+      font-size="92"
+      font-weight="800"
+      fill="#ffffff"
+      letter-spacing="0.02em"
+    >
+      <tspan x="600" dy="0">COMEDY IS MY</tspan>
+    </text>
+<g transform="translate(600 455)" filter="url(#printShadow)">
+      <rect
+      x="-125"
+      y="-125"
+      width="250"
+      height="250"
+      rx="45"
+      fill="rgba(0,0,0,0.28)"
+      stroke="#a855f7"
+      stroke-width="5"
+      opacity="0.55"
+    />
+      <g
+      fill="none"
+      stroke="#a855f7"
+      stroke-width="12"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-label="heartMic"
+    >
+      <path
+            d="M0 27.2
+               C 56.1 -4.25, 37.4 -56.1, 0 -28.900000000000002
+               C -37.4 -56.1, -56.1 -4.25, 0 27.2 Z"
+            fill="#a855f733"
+            stroke="#a855f7"
+            stroke-width="10"
+            stroke-linejoin="round"
+          />
+        
+          <rect
+            x="-18.7"
+            y="-39.1"
+            width="37.4"
+            height="57.800000000000004"
+            rx="18.7"
+            fill="none"
+            stroke="#a855f7"
+            stroke-width="9"
+            opacity="0.9"
+          />
+          <path
+            d="M0 20.4 V 57.800000000000004"
+            fill="none"
+            stroke="#a855f7"
+            stroke-width="7"
+            stroke-linecap="round"
+            opacity="0.9"
+          />
+    </g>
+    </g>
+<text
+      x="600"
+      y="612"
+      text-anchor="middle"
+      font-family="Teko, Impact, Arial Black, sans-serif"
+      font-size="92"
+      font-weight="800"
+      fill="#ffffff"
+      letter-spacing="0.02em"
+    >
+      <tspan x="600" dy="0">CARDIO</tspan>
+    </text>
+    </g>
+  </g>
+</svg>

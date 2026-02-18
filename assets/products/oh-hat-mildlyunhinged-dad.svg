@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+
+  <radialGradient id="bg" cx="0.5" cy="0.38" r="0.9">
+    <stop offset="0" stop-color="#f5f3ff" />
+    <stop offset="0.55" stop-color="#ffffff" />
+    <stop offset="1" stop-color="#ffffff" />
+  </radialGradient>
+
+
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.22" />
+  </filter>
+
+
+  <filter id="printShadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.22" />
+  </filter>
+
+<linearGradient id="fabric" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#111827" />
+    <stop offset="1" stop-color="#0b0b0b" />
+  </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <ellipse cx="600" cy="716" rx="280" ry="64" fill="rgba(0,0,0,0.12)" />
+
+  <g filter="url(#shadow)">
+<path
+      d="M360 430 Q380 300 500 266 Q600 236 700 266 Q820 300 840 430 Q845 460 822 472 Q740 514 600 514 Q460 514 378 472 Q355 460 360 430 Z"
+      fill="url(#fabric)"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="3"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M320 510 Q420 560 600 560 Q780 560 880 510 Q915 492 920 518 Q926 552 896 570 Q778 644 600 644 Q422 644 304 570 Q274 552 280 518 Q285 492 320 510 Z"
+      fill="rgba(0,0,0,0.22)"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="3"
+      stroke-linejoin="round"
+      opacity="0.9"
+    />
+    <path
+      d="M430 420 Q520 340 600 340 Q680 340 770 420"
+      fill="none"
+      stroke="rgba(255,255,255,0.12)"
+      stroke-width="24"
+      stroke-linecap="round"
+      opacity="0.16"
+    />
+    <g>
+      <g transform="translate(600 340)" filter="url(#printShadow)">
+            <rect
+      x="-59"
+      y="-59"
+      width="118"
+      height="118"
+      rx="21.24"
+      fill="rgba(0,0,0,0.28)"
+      stroke="#c4b5fd"
+      stroke-width="3"
+      opacity="0.55"
+    />
+            <g
+      fill="none"
+      stroke="#c4b5fd"
+      stroke-width="6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-label="hinge"
+    >
+      <rect
+            x="-19.98"
+            y="-28.86"
+            width="39.96"
+            height="57.72"
+            rx="8.879999999999999"
+            fill="none"
+            stroke="#c4b5fd"
+            stroke-width="6"
+          />
+          <path
+            d="M0 -28.86 V 28.86"
+            fill="none"
+            stroke="#c4b5fd"
+            stroke-width="4"
+            opacity="0.9"
+          />
+          <circle cx="0" cy="-12.70" r="4" fill="#c4b5fd" opacity="0.9" />
+<circle cx="0" cy="0.00" r="4" fill="#c4b5fd" opacity="0.9" />
+<circle cx="0" cy="12.70" r="4" fill="#c4b5fd" opacity="0.9" />
+    </g>
+          </g>
+<text
+      x="600"
+      y="448"
+      text-anchor="middle"
+      font-family="Teko, Impact, Arial Black, sans-serif"
+      font-size="52"
+      font-weight="800"
+      fill="#ffffff"
+      letter-spacing="0.02em"
+    >
+      <tspan x="600" dy="0">Mildly</tspan><tspan x="600" dy="47">Unhinged</tspan>
+    </text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+{
+  "name": "voide-1-xsp-catalogue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate:mockups": "node scripts/generate-product-mockups.cjs",
+    "render:png": "node scripts/render-pngs.cjs",
+    "build:assets": "npm run generate:mockups && npm run render:png",
+    "serve": "python3 -m http.server 8080",
+    "test": "echo \"No tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mberry19932025/STORYTAP-STUDIO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mberry19932025/STORYTAP-STUDIO/issues"
+  },
+  "homepage": "https://github.com/mberry19932025/STORYTAP-STUDIO#readme",
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}
